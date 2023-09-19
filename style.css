@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* header css started here  */
+header {
+    background-image: url('/useimages/nav1.jpg');
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-between;
+    padding: 37px 105px;
+}
+
+.navigation h1 {
+    background-color: black;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    list-style: none;
+    padding-left: 36px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(197, 197, 197);
+}
+
+header hr {
+    margin: 10px 78px;
+}
+
+.clean-child {
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+    
+}
+
+.clean-child h1 {
+    font-size: 54px;
+    font-weight: 100;
+}
+
+.clean-child p {
+    font-size: 21px;
+    line-height: 43px;
+}
+
+header button {
+    color: white;
+    background-color: rgb(59 162 148);
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 105px;
+
+}
+
+header button:hover {
+    background-color: rgb(110, 149, 144);
+    color: black;
+}
+
+/* section-first css started here  */
+
+.section-first {
+    color: #718096;
+    margin: 58px 105px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+section hr {
+    margin: 10px 105px;
+    color: #FAFAFA;
+}
+
+.section-first-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 63px 105px;
+}
+
+.section-first-items h3 {
+    text-align: center;
+    line-height: 45px;
+    font-weight: 200;
+
+}
+
+.section-first-items p {
+    text-align: center;
+    line-height: 22px;
+    color: #718096;
+    padding-bottom: 16px;
+
+}
+
+.first-child,
+.second-child,
+.third-child {
+    border: 2px solid #cdcdcd;
+}
+
+
+/* section-second css started here  */
+
+.headind-child {
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 22px;
+}
+
+.headind-child h1 {
+    font-weight: 100;
+    padding: 15px 0;
+}
+.headind-child i {
+    background-color: #1e8dff;
+    padding: 6px 6px;
+    border-radius: 27px;
+    color: white;
+    font-size: 36px;
+}
+
+.section-second-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 105px 50px;
+}
+.section-second-descrption{
+    padding: 24px 0px;
+}
+
+.section-second-items h1 {
+    font-size: 29px;
+    font-weight: 100;
+}
+
+.section-second-items p {
+    padding: 17px 0px 51px;
+    line-height: 21px;
+    color: #718096;
+}
+
+
+.section-second-items button {
+    padding: 8px 28px;
+    color: #00bfbf;
+    border: 2px solid #00bfbf;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.section-second-items button:hover {
+    background-color: #e7e7e7;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+
+/* section-third css started here  */
+.section-third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 105px;
+}
+.section-third-descrption{
+    padding: 25px 0;
+}
+.section-third h1 {
+    font-size: 29px;
+    font-weight: 100;
+}
+
+.section-third p {
+    padding: 17px 0px 51px;
+    line-height: 21px;
+    color: #718096;
+}
+
+.section-third button {
+    padding: 8px 28px;
+    color: #00bfbf;
+    border: 2px solid #00bfbf;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.section-third button:hover {
+    background-color: #e7e7e7;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+.section-third img{
+    object-fit: cover;
+}
+
+.section-third-hr {
+    margin: 10px 105px;
+}
+
+/* section-fourth css started here  */
+.projects-child {
+    text-align: center;
+    padding-top: 50px;
+    line-height: 32px;
+    
+}
+.projects-child h1{
+    font-weight: 100;
+}
+.projects-child p{
+color: #718096;
+}
+
+.section-fourth-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 105px 0;
+}
+
+.section-fourth-items h3 {
+    text-align: center;
+    line-height: 40px;
+    font-weight: 100;
+    
+}
+
+.section-fourth-items p {
+    text-align: center;
+    color: #718096;
+}
+
+.section-fourth-items img{
+    width: 260px;
+    height: 55%;
+}
+/* section-fivth css started here  */
+.section-fivth {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 105px 15px ;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(30 60 111);
+}
+
+.section-fivth a {
+    color: rgb(47, 120, 189);
+    text-decoration: none;
+}
+
+input {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.section-fivth button {
+    padding: 11px 17px;
+    color: white;
+    background-color: #00c4c4;
+    cursor: pointer;
+    border: none;
+    margin: 0px -3px;
+    border-radius: 5px;
+}
+
+.section-fivth button:hover {
+
+    color: black;
+    background-color: #91e9e9;
+}
+
+.section-fivth i {
+    color:#00c4c4;
+}
+.section-fivth h1 {
+    padding: 12px 0px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.section-fivth h2 {
+    padding: 12px 0px;
+    font-size: 20px;
+}
+
+.section-fivth p {
+    padding-top: 14px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.input-child {
+    padding: 16px 0px;
+}
+
+/* footer css started here  */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 105px;
+    background-color: black;
+}
+
+footer h3 {
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.footer-img {
+    filter: invert(100);
+    display: flex;
+    padding: 0px 120px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.facebook-child {
+    padding: 0px 35px;
+}
+.twitter-logo {
+    background-color: #f54529;
+    padding: 4px 6px;
+    border-radius: 15px;
+}
